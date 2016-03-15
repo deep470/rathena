@@ -36,18 +36,18 @@
 //============================================================
 -	script	::Sailor_izlude	-1,{
 	mes "[Sailor]";
-	mes "Hey everybody!";
-	mes "Attention, attention!";
-	mes "Come and ride the wind";
-	mes "on a fascinating Ship!";
-	mes "Hurry, hurry!";
+	mes "Hallo Leute!";
+	mes "Achtung, Achtung!";
+	mes "Kommt und reitet mit dem Wind";
+	mes "auf einem faszinierenden Schiff!";
+	mes "Schnell, schnell!";
 	next;
-	switch(select("Byalan Island -> 150 Zeny.:Alberta Marina  -> 500 Zeny.:Cancel.")) {
+	switch(select("Byalan Island -> 150 Zeny.:Alberta Marina  -> 500 Zeny.:Abbruch.")) {
 	case 1:
 		if (Zeny < 150) {
-			mes "[Sailor]";
+			mes "[Matrose]";
 			mes "150 Zeny!";
-			mes "Only 150 Zeny to ride!";
+			mes "Nur 150 Zeny pro Fahrt!";
 			close;
 		}
 		set Zeny, Zeny - 150;
@@ -55,9 +55,9 @@
 		end;
 	case 2:
 		if (Zeny < 500) {
-			mes "[Sailor]";
+			mes "[Matrose]";
 			mes "500 Zeny!";
-			mes "Only 500 Zeny to ride!";
+			mes "Nur 500 Zeny pro Fahrt!";
 			close;
 		}
 		set Zeny, Zeny - 500;
@@ -70,25 +70,25 @@
 
 -	script	::Bonne_izlude	-1,{
 	mes "[Bonne]";
-	mes "Greetings!";
-	mes "Izlude welcomes you.";
+	mes "Grüße!";
+	mes "Izlude begrüßt Dich.";
 	next;
 	mes "[Bonne]";
-	mes "Izlude is the satellite city of Prontera, capital of the Rune-Midgarts kingdom.";
+	mes "Izlude ist die Schwesterstadt von Prontera, der Hauptstadt des Königreichs Rune-Midgard.";
 	next;
 	mes "[Bonne]";
-	mes "Izlude is key to our kingdom because of the Swordsman Association located here, as well as the fact that Izlude is in charge of protecting the Rune-Midgard coastline.";
+	mes "Izlude ist der Schlüssel zu unserem Königreich, weil sich die Swordman Vereinigung hier befindet. Ausserder ist Izlude verantwortlich für den Schutz der Küstenline von Rune-Midgard.";
 	next;
 	mes "[Bonne]";
-	mes "I know, this bridge might look weak and fragile, but it is actually state of the art, built with the most sophisticated technology.";
+	mes "Ich weiß, diese Brücke sieht ein bisschen schwach und zerbrechlich aus, aber tatsächlich ist sie hochmodern, gebaut mit der fortgeschrittensten Technik.";
 	next;
 	mes "[Bonne]";
-	mes "No matter how strong storms may be, or how many people may stand on it, this bridge will NEEEEVER collapse.";
+	mes "Egal wie stark die Stürme werden, oder wie viele Leute darauf stehen mögen, diese Brücke wird NIEEEMALS zusammenbrechen.";
 	next;
 	mes "[Bonne]";
-	mes "Please enjoy";
-	mes "your visit";
-	mes "here in Izlude.";
+	mes "Bitte genieße";
+	mes "Deinen Besuch";
+	mes "hier in Izlude.";
 	close;
 }
 
@@ -96,10 +96,10 @@
 	mes "[Charfri]";
 	switch(rand(2)) {
 	case 1:
-		mes "Some people may think Izlude is just a satellite city of Prontera, and not really that important...";
+		mes "Manche Leute denken vielleicht, dass Izlude nur Vorort von Prontera und nicht wirklich wichtig ist...";
 		next;
 		mes "[Charfri]";
-		mes "But Izlude is a beautiful town right next to the ocean, as well as beautiful Bylan Island.";
+		mes "Aber Izlude ist eine  a wunderschöne Stadt direkt am Ozean, genau wie die hübsche Byalan-Insel.";
 		next;
 		mes "[Charfri]";
 		mes "You'll have to board on a ship at the port to get to Byalan Island. There are dangerous dungeons on that island, so don't go snooping around just anywhere.";
