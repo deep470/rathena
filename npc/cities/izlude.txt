@@ -102,16 +102,16 @@
 		mes "Aber Izlude ist eine  a wunderschöne Stadt direkt am Ozean, genau wie die hübsche Byalan-Insel.";
 		next;
 		mes "[Charfri]";
-		mes "You'll have to board on a ship at the port to get to Byalan Island. There are dangerous dungeons on that island, so don't go snooping around just anywhere.";
+		mes "Du musst an Bord des Schiffes im Hafen gehen, um Byalan Island zu erreichen. Auf der Insel gibt es gefährliche Dungeons, also schnüffel dort nicht zu sehr rum.";
 		close;
 	default:
-		mes "Though it is very beautiful, Byalan Island has a mysterious dungeon that extends deep under the sea.";
+		mes "Obwohl sie sehr schön ist, hat Byalan Island einen geheimnisvollen Dungeon, der sich bis tief unter die See erstreckt.";
 		next;
 		mes "[Charfri]";
-		mes "People who've actually been there have said that if you go deep enough, the dungeon actually descends underwater.";
+		mes "Leute, die tatsächlich dort waren, haben erzählt daß, wenn Du tief genug gehst, der Dungeon sogar unter Wasser liegt.";
 		next;
 		mes "[Charfri]";
-		mes "Surprisingly, once you're underwater, you can breathe just like a fish. Maybe some kind of supernatural force is in effect.";
+		mes "Überraschenderweise kannst Du dort, obwohl unter Wasser, wie ein Fisch atmen. Vielleicht ist eine Art übernatürliche Kraft aktiv. ";
 		next;
 		mes "[Charfri]";
 		mes "Ah...";
